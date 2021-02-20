@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  max-width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+  font-size: 43px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.text {
+  color: #fff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 34px;
+}
+
+header {
+  width: 100%;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .header nav {
+  min-height: 108px;
+  padding-bottom: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 503px) {
+  header .header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .header nav .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+header .header nav a .logo {
+  padding-top: 19px;
+  width: 55px;
+  padding-left: 44px;
+}
+
+header .header nav a .logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+header .header nav .nav {
+  padding-top: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 268px;
+}
+
+header .header nav .nav a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header .header nav .nav a:first-child:hover {
+  text-decoration: underline;
+}
+
+header .header nav .nav :nth-child(2) {
+  padding: 16px 37px;
+  background-color: #262a34;
+}
+
+header .header nav .nav :nth-child(2):hover {
+  background-color: #363a3d;
+}
+
+header .header main .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 245px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 908px) {
+  header .header main .main {
+    padding: 145px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  header .header main .main {
+    padding: 75px 0;
+  }
+}
+
+header .header main .main .phone {
+  margin-right: 167px;
+  max-width: 310px;
+}
+
+@media screen and (max-width: 908px) {
+  header .header main .main .phone {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+header .header main .main .phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 908px) {
+  header .header main .main .main_text {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header main .main .main_text p {
+    margin: 0;
+  }
+}
+
+header .header main .main .main_text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 43px;
+  color: #3c3d41;
+  max-width: 450px;
+  font-weight: 800;
+}
+
+header .header main .main .main_text h1 span {
+  color: #fff;
+  font-style: italic;
+}
+
+header .header main .main .main_text p {
+  max-width: 344px;
+  margin: 80px 0;
+}
+
+header .header main .main .main_text .play img {
+  max-width: 170xp;
+  display: block;
+  height: auto;
+}
+
+.get {
+  background-color: #262a34;
+  height: auto;
+  padding: 235px 0;
+}
+
+.get .get_content .left {
+  max-width: 315px;
+}
+
+.get .get_content .left p {
+  margin: 93px 0;
+}
+
+.get .get_content .left a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px 30px;
+  background-color: #41e0d8;
+  font-weight: 600;
+}
+
+.get .get_content .left a:hover {
+  background-color: #6fddd8;
+}
+/*# sourceMappingURL=style.css.map */
